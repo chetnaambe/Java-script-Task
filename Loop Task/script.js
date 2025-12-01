@@ -2,7 +2,7 @@
 
 // 1  eligible for vote or not using user input
 
-let age = prompt("Enyer your age");
+let age = prompt("Enter your age");
 if(age>=18) console.log("Eligible");
 else console.log("Not Eligible");
 
@@ -13,7 +13,7 @@ for (let i = 1; i<=10; i++){
     console.log(`5 * ${i} = ${ 5 * i }`);
 }
 
-// count thenumber taht is greater than 8
+// count the number that is greater than 8
   let count =0;
 for(let g= 1;g<=15;g++){
     if(g>=8){
