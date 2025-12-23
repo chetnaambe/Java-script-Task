@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+body{
+  main{
+         width: 100%;
+         height: 100%;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+     .card{
+        background-color: white;
+        width: 350px;
+        height: 500px;
+        padding: 60px;
+border-radius: 15px;
+position: absolute;
+div{
+
+  position: relative;
+    overflow: hidden;
+
+         img{
+width: 100%;
+height: 300px;
+object-fit: cover;
+margin-bottom: 40px;
+border-radius: 15px;
+cursor: pointer;
+         }
+         h2{
+            font-size: 25px;
+            color: black;
+            text-align: center;
+         }
+         i{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+background-image: url(data:image/jpeg;base64,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);
+background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+   font-size: 50px;
+            opacity :0;
+            transform: translate(-50%,-50%) scale(0) rotate(-90deg);
+            // Cubic bazier
+            transition: all cubic-bezier(.65,1,.77,1.44) 0.4s ease;
+            // pointer-events: none;
+         }
+         }
+     }
+
+     }
+}
