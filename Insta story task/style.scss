@@ -1,0 +1,76 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+    color: white;
+ 
+    main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+           #card{
+            overflow: hidden;
+              height:600px;
+              width: 450px;
+              background-color: white;
+            //   border-radius: 1rem;
+            //   border: 3px solid red;
+                                border:3px solid transparent;
+                      background: linear-gradient(white, white) padding-box,
+                      linear-gradient(to right,#5F019D,#B910A6,#E5583C,#FAB437) border-box;
+              position: relative;
+              #fullscreen{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    position: absolute;
+    display: none;
+              }
+             #stories{
+                height: 120px;
+                width: 100%;
+                border: 0.1px solid #dadada;
+             padding: 0.8rem;
+             white-space: nowrap;
+             overflow-x: auto;
+             overflow-y: hidden;
+                  .story{
+              
+                    border:3px solid transparent;
+                      background: linear-gradient(white, white) padding-box,
+                      linear-gradient(to right,#5F019D,#B910A6,#E5583C,#FAB437) border-box;
+                 
+                    height:90px;
+                    width: 90px;
+                    border-radius: 50%;
+                        overflow: hidden;
+                        display: inline-block;
+                        margin-right: 5px;
+                       
+                      img{
+                        height: 100%;
+                        width: 100%;
+                     object-fit: cover;
+                     object-position: center;
+                      }
+                  }
+              }
+              #stories::-webkit-scrollbar{
+                display :none;
+              }
+           }
+    }
+}
+
