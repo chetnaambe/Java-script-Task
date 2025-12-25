@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+body{
+   background-color:white;
+
+//    padding: 30px;
+   color: white;
+   main{
+ display: flex;
+//    align-items: flex-start;
+   overflow-x: auto;
+   gap: 80px;
+    padding: 20px;
+   height: 100%;
+   width: 100%;
+   
+        #card{
+           height:550px ;
+            width: 380px;
+            border-radius: 20px;
+            background-color: #000000dc;
+            text-align: center;
+            position: relative;
+            flex-shrink: 0;
+  
+           
+            .space{
+                background-color :rgba(233, 153, 153, 0.893);
+
+           
+
+                width: 100%;
+                height:200px;
+              border-radius:10px ;
+            }
+            img{
+             height: 200px;
+             width: 180px;
+             border-radius: 50%;
+             position: absolute;
+             top:100px;
+             left: 50%;
+  transform: translateX(-50%);
+             object-fit: cover;
+             object-position: center;
+          
+        }
+        h3{
+            margin-top: 110px;
+            padding: 10px;
+            font-size: 38px;
+            color:#EE4D80;
+               white-space: nowrap;
+        }
+        h5{
+            font-size: 25px;
+            color: #D7D19F;
+            // margin-top: 5px;
+            padding: 10px;
+               white-space: nowrap;
+
+        }
+        p{
+   font-size: 20px;
+   padding: 15px;
+  
+//    margin-top: 15px;
+    
+        }
+        i{
+             display: inline-block;
+            font-size: 35px;
+          
+    margin-top: 5px;
+    // margin-right: 10px;
+    // margin-bottom: 12px;
+   
+        
+        }
+        #one{
+           color: blue;
+           
+        }
+        #two{
+            color: rgb(180, 10, 180);
+             
+        }
+        #three{
+            color: green;
+             
+        }
+        #four{
+            color: cornflowerblue;
+           
+        }
+        #five{
+            color: rgb(80, 80, 233);
+             
+        }
+        }
+    }
+}
