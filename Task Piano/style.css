@@ -10,52 +10,41 @@ html, body {
 }
 
 body {
-  background-color: black;
-}
-body main {
-  height: 100%;
-  width: 100%;
+  min-width: 1200px;
+  background-color: #0b0d16;
+  color: white;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
-body main .container {
-  height: 600px;
-  width: 900px;
-  background-color: black;
+body .container {
+  height: 30%;
+  width: 30%;
+  background-color: #282d45;
   display: flex;
-  gap: 2px;
+  align-items: flex-start;
+  padding: 2rem;
   position: relative;
-  color: black;
   border-radius: 50px;
-  padding: 5px;
-  box-shadow: 5px 5px 50px white;
+  box-shadow: -5px -5px 50px white;
 }
-body main .container .white {
-  width: 150px;
-  height: 85%;
-  border: 6px solid black;
+body .container .white {
+  background-color: white;
+  height: 80%;
+  width: 10%;
+  position: relative;
+  z-index: 1;
   border-bottom-left-radius: 70px;
   border-bottom-right-radius: 70px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  background-color: white;
 }
-body main .container .black {
-  width: 100px;
+body .container .white:active {
+  background-color: #404667;
+}
+body .container .black {
   height: 50%;
   background-color: black;
-  position: absolute;
-  top: 0;
-  z-index: 10;
-}
-body main .container .black:nth-of-type(2) {
-  left: 100px;
-}
-body main .container .black:nth-of-type(4) {
-  left: 260px;
-}
-body main .container .black:nth-of-type(8) {
-  left: 680px;
+  width: 10%;
+  position: relative;
+  z-index: 2;
 }/*# sourceMappingURL=style.css.map */

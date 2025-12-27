@@ -29,9 +29,14 @@
           var g = new Audio(`./g.mp3`);
            var h = new Audio(`./h.mp3`);
             var i = new Audio(`./i.mp3`);
+            var j = new Audio(`./j.mp3`);
+               var k = new Audio(`./k.mp3`);
+
 
             var one = document.querySelector(`#one`)
-               var two = document.querySelector(`#two`)
+               var two = document.querySelector(`#two1`)
+                var two1 = document.querySelector(`#two2`)
+                 var two2 = document.querySelector(`#two`)
                   var three = document.querySelector(`#three`)
                      var four = document.querySelector(`#four`)
                         var five = document.querySelector(`#five`)
@@ -48,6 +53,15 @@
     two.addEventListener(`click`,function(){
       b.currentTime = 0;
  b.play();
+  })
+
+      two1.addEventListener(`click`,function(){
+      j.currentTime = 0;
+ j.play();
+  })
+      two2.addEventListener(`click`,function(){
+      k.currentTime = 0;
+ k.play();
   })
       three.addEventListener(`click`,function(){
       c.currentTime = 0;
